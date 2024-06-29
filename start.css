@@ -1,0 +1,50 @@
+.points{
+    display: flex;
+}
+.int_flex{
+    display: flex;
+    color: #ffd700; /* Gold color for high score */
+    text-shadow: 2px 2px 4px #000000; 
+}
+body {
+    background-color: #0d0d1a;
+    transition: background-color 1s ease;
+    color: #ffffff; /* White text on dark background */
+    zoom: 150%;
+}
+h1 {
+    color: #ff9900; /* Orange color */
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
+
+}
+#start_but {
+    background-color: #4caf50; /* Green button color */
+    color: #ffffff; /* White text on green button */
+    border: 1px solid white;
+    width: 75px;
+    height: 35px;
+    font-size: 23px;
+    border-radius: 7px;
+    margin-left: 45%;
+}
+#start_but:hover{
+    background-color: #2a642c;
+}
+.points {
+    background-color: #333333; /* Dark gray background for points container */
+}
+body {
+    color: #ffffff; /* White text on dark background */
+}
+
+#keys{
+    font-size: 50px;
+    /* margin-left: 45%; */
+}
